@@ -1,0 +1,35 @@
+KaynakID: fghfh
+KaynakAdi: hfghfg
+KaynakDetay: hdfghgf
+KaynakURL: https://madran.net
+KaynakZamanDamgasi: 2025-01-09 07:44:04
+Durum: Erişilebilir
+----------------------------------------
+KaynakID: fghfh
+KaynakAdi: hfghfg
+KaynakDetay: hdfghgf
+KaynakURL: https://madran.net
+KaynakZamanDamgasi: 2025-01-09 07:44:05
+Durum: Erişilebilir
+----------------------------------------
+KaynakID: fghfh
+KaynakAdi: hfghfg
+KaynakDetay: hdfghgf
+KaynakURL: https://madran.net
+KaynakZamanDamgasi: 2025-01-09 07:44:06
+Durum: Erişilebilir
+----------------------------------------
+KaynakID: fghfh
+KaynakAdi: hfghfg
+KaynakDetay: hdfghgf
+KaynakURL: https://madran.net
+KaynakZamanDamgasi: 2025-01-09 07:44:06
+Durum: Erişilebilir
+----------------------------------------
+KaynakID: 1
+KaynakAdi: deneme2
+KaynakDetay: deneme2
+KaynakURL: https://facebook.com
+KaynakZamanDamgasi: 2025-01-09 07:44:40
+Durum: Erişilebilir
+----------------------------------------

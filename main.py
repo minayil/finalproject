@@ -30,6 +30,20 @@ def log_to_xml(data):
     # XML dosyasını kaydet
     tree.write(xml_file_path, encoding="utf-8", xml_declaration=True)
 
+# TXT dosyasına veri eklemek için bir fonksiyon
+def log_to_txt(data):
+    txt_file_path = "site_data_log.txt"
+
+    # Veriyi yazmak için açma ve yazma işlemi
+    with open(txt_file_path, "a", encoding="utf-8") as f:
+        f.write(f"KaynakID: {data['KaynakID']}\n")
+        f.write(f"KaynakAdi: {data['KaynakAdi']}\n")
+        f.write(f"KaynakDetay: {data['KaynakDetay']}\n")
+        f.write(f"KaynakURL: {data['KaynakURL']}\n")
+        f.write(f"KaynakZamanDamgasi: {data['KaynakZamanDamgasi']}\n")
+        f.write(f"Durum: {data['Durum']}\n")
+        f.write("-" * 40 + "\n")  # Ayırıcı çizgi
+
 @app.route('/', methods=['GET', 'POST'])
 def check_site():
     result = None
@@ -49,7 +63,7 @@ def check_site():
         except requests.exceptions.RequestException:
             result = "Erişim sağlanamadı (Bağlantı hatası)"
 
-        # XML'e kaydedilecek veri
+        # XML ve TXT dosyasına kaydedilecek veri
         data = {
             "KaynakID": kaynak_id,
             "KaynakAdi": kaynak_adi,
@@ -59,7 +73,8 @@ def check_site():
             "Durum": result
         }
 
-        log_to_xml(data)
+        log_to_xml(data)  # XML dosyasına yaz
+        log_to_txt(data)  # TXT dosyasına yaz
 
     return render_template("form.html", result=result)
 
