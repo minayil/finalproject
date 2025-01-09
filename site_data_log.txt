@@ -33,3 +33,17 @@ KaynakURL: https://facebook.com
 KaynakZamanDamgasi: 2025-01-09 07:44:40
 Durum: Erişilebilir
 ----------------------------------------
+KaynakID: gfdgdf
+KaynakAdi: fdhgfdg
+KaynakDetay: fgdfsgdfs
+KaynakURL: https://facebook.com
+KaynakZamanDamgasi: 2025-01-09 07:58:32
+Durum: Erişilebilir
+----------------------------------------
+KaynakID: jghjhgdj
+KaynakAdi: hgjghfjhg
+KaynakDetay: jfghjhfg
+KaynakURL: https://madran.net
+KaynakZamanDamgasi: 2025-01-09 07:58:43
+Durum: Erişilebilir
+----------------------------------------
